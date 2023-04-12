@@ -19,6 +19,15 @@
 		아이디: <input type="text" name="id" size="5"><br> 비밀번호: <input
 			type="text" name="pw" size="5"> <button type="submit">로그인</button>
 	</form>
+	<button onclick="location.href='join'">회원가입</button>
+	<br><br>
+	
+	<!-- 권한은 나중에 -->
+	<button onclick="location.href='mypage'">마이페이지</button>
+	<button onclick="location.href='ownerpage'">사장님페이지</button>
+	<button onclick="location.href='adminpage'">관리자페이지</button>
+	<br>
+	
 	<h1>메뉴 카테고리</h1>
 	<button type="button" onclick="location.href='#'">한식</button>
 	<button type="button" onclick="location.href='#'">중식</button>
