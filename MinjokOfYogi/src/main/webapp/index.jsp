@@ -15,7 +15,16 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	인덱스
-	${hi }
+	<form>
+		아이디: <input type="text" name="id" size="5"><br> 비밀번호: <input
+			type="text" name="pw" size="5"> <button type="submit">로그인</button>
+	</form>
+	<h1>메뉴 카테고리</h1>
+	<button type="button" onclick="location.href='#'">한식</button>
+	<button type="button" onclick="location.href='#'">중식</button>
+	<button type="button" onclick="location.href='#'">양식</button>
+	<button type="button" onclick="location.href='#'">분식</button>
+	<button type="button" onclick="location.href='#'">피자/치킨</button>
+	<button type="button" onclick="location.href='#'">디저트</button>
 </body>
 </html>
