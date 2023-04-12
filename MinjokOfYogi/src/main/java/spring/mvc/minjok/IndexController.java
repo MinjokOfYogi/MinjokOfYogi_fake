@@ -9,5 +9,10 @@ public class IndexController {
 	public String index() {
 		return "index";
 	}
-
+	
+	@GetMapping("/join")
+	public String join() {
+		return "views/join";
+	}
+	
 }
