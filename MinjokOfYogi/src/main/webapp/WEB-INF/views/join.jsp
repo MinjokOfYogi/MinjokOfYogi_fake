@@ -14,7 +14,7 @@
 <body>
 	<h1>회원가입</h1>
 	<br>
-	<button type="button" onclick="location.href='user-join'">일반회원가입</button>
+	<button type="button" onclick="location.href='join/user'">일반회원가입</button>
 	<br>
 	<button type="button" onclick="location.href='owner-join'">사장님회원가입</button>
 </body>

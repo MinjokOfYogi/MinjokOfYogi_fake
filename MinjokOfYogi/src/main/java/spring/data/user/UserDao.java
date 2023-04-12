@@ -9,7 +9,7 @@ public class UserDao {
 	@Autowired
 	SqlSession session;
 
-	public int count_user() {
-		return session.selectOne("count_user");
+	public void insert_user(UserDto dto) {
+		session.insert("insert_user", dto);
 	}
 }

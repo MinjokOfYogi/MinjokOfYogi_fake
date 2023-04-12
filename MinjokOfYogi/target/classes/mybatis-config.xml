@@ -6,7 +6,7 @@
 <configuration>
 	<typeAliases>
 		<!-- DTO 등록 -->
-		<typeAlias alias="user" type="spring.data.user.UserDto" />
+		<typeAlias alias="userDto" type="spring.data.user.UserDto" />
 		
 	</typeAliases>
 </configuration>
