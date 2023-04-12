@@ -12,8 +12,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	가게목록
+	"$가게이름" 가게 상세정보<br>
 	
-	aa
+	
+	
+	영업시간 : 시간 설정<br> 
+	
+	<a href="menu?num=$가게번호 ">메뉴등록</a><br>
+	
+	<a href="reivew?num=$가게번호">리뷰</a><br>
+	
+	<a href="order?num=$가게번호">주문</a><br>
 </body>
 </html>
